@@ -1,15 +1,15 @@
 [CIO_IGNORE]
-devices : ["device_list"]
+devices : [1, "10 - 90"]
 
 [Network I/O Devices]
-configured_device :
-unconfigured_device :
+configured_device : enccw0.0.1530
+unconfigured_device : 0.0.1506
 
 [Storage I/O Devices]
-online_dasdeckd_device :
-offline_dasdeckd_device :
-online_zfcp_device :
-offline_zfcp_device : 
+online_dasdeckd_device : 0.0.5112
+offline_dasdeckd_device : 0.0.5111
+online_zfcp_device : 0.0.3081
+offline_zfcp_device : 0.0.3082
 
 [FCLUNs]
 hba_id : 
